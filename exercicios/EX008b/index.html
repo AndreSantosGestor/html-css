@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+
+<body>
+    <h1>Outras formatações de texto</h1>
+    <h2>Código-fonte/</h2>
+    <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript</p>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <p>Explicação da tag code: A tag code serve para tornar o texto mais legivel no quesito largura das letras. Todas
+        ficam com o mesmo espaçamento.</p>
+    <p>A fonte padrão que geralmente é exibida quando a tag code é usada no HTML é a fonte monoespaçada. A fonte
+        monoespaçada é uma fonte em que todos os caracteres possuem a mesma largura, o que facilita a leitura de código
+        e a alinhamento de elementos em uma representação visualmente clara.
+
+
+        No entanto, a aparência exata da fonte monoespaçada pode variar dependendo do sistema operacional e das
+        configurações de fonte do navegador. </p>
+    <p>A tag CODE não indenta as linhas de comando necessitando do envelopamento com a tag chamada PRE.</p>
+    <p>Exemplo: sem a tag pre</p>
+
+    <code>
+num = int(input('Digite um número'))
+if num % 2 == 0;
+print(f'O número {num} é par')
+Else;
+print('fim do programa')
+</code>
+    <p>Observe que fica só um linha inteira de códigos e não há separação nem indentação</p>
+    <p>E com a tag pre</p>
+    <pre>
+<code>
+num = int(input('Digite um número'))
+if num % 2 == 0;
+print(f'O número {num} é par')
+Else;
+print('fim do programa')
+</code>
+</pre>
+    <h2>Tabulação</h2>
+    <p>Para fazer avançar a tabulação tanto de uma linha de código, quanto do código inteiro, use TAB (avançar e
+        SHIT-TAB (recuar)</p>
+<h2>Citações simples</h2>
+<p>Para citações tipo uma fala de outra pessoa, não devemos usualmente digitar as aspas e sim usar a tag q</p>
+<p>Exemplo:</p>
+<p>Como diria um pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+<h2>Citações completas</h2>
+<p>O blockquote é uma citação para ser usada quando queremos ela em uma linha separada e com afastamento tabulado carcterístico do próprio comando. isso é muito importante pois não é simplesmente uma tabulação, mas uma tag que tem um sentido de citação. Sendo importante para a semântica</p>
+<p>Exemplo sem a tag blockquote:</p>
+<p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+A diferença entre elementos inline e um texto é importante. Os elementos HTML neste capitulo descrevem os blocos de texto.
+<p>Exemplo com a tag blockquote:</p>
+<p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+<blockquote>A diferença entre elementos inline e um texto é importante. Os elementos HTML neste capitulo descrevem os blocos de texto.</blockquote></p>
+<h2>Abreviações</h2>
+<p>Estou estudando HTML e CSS. Estou adorando!</p>
+<p>No texto acima você pode indicar para o usuario o significado dessas siglas envelopando-as com a tag (abbr)</p>
+<p>Exemplo:</p>
+<p>Estou estudando <abbr title="Hipertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+<p>Agora na página, é só passar o mouse por cima da sigla e em segundos aparece o significado</p>
+</body>
+
+</html>

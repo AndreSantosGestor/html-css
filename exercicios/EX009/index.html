@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com listas</title>
+</head>
+<body>
+ <h1>Trabalhando com Listas</h1> 
+ <h2>Listas Ordenadas</h2>
+    <ol type="I" start="1"> 
+        <li>Acordar
+        <li>Ligar para o João
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir para a faculdade
+        <li>Almoçar
+        <li>Ir para o Trabalho
+        <li>Voltar para casa
+        <li>Jantar
+        <li>Dormir
+    </ol>  
+ <p>A tag (ol) ordena em ordem crescente os itens descritos. Observe que foram 10 ítens, porém, começando do 2 e terminando no 11. Isto é devido ao parâmetro adicionado que é opcional chamado (type) e (start), onde se escolhe o tipo de organização. <br>
+    As opções são:<br>
+    (1) que ondena em numeros de forma crescente,<br> 
+    (A) que ordena em letras maiúsculas,<br> (a) que ordena em letras minusculas,<br> (I) números romanos maiúsculos,<br>
+    (i) Numeros romanos minusculos<br><br>
+    O parâmetro (start) pergunta à partir de onde se quer iniciar a lista. Observação: só aceita números. Nunca letras. </p>
+ <br>
+ <h2>Listas não ordenadas</h2> 
+    <ul type"disc">
+        <li>Pão
+        <li>Leite
+        <li>Tomate
+        <li>Manteiga
+        <li>Arroz
+        <li>Feijão
+    </ul>
+<p>Nas listas ordenadas, a ordenação é aleatória e pontuada por figuras usando o parâmetro (style).<br> 
+São eles:<br>
+(disc): que é um círculo preenchido, <br>
+(circle): que é um circulo sem preenchimento,  <br>
+(square): que é um quadrado preenchido,</p>
+<br><h2>Mesclando listas</h2>
+<h3>ol dentro de ol (aninhadas)</h3>
+<ol>
+    <li>Linguagens de programação antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+</ol>
+<ol>
+    <li>Linguagens de programação Atuais</li>
+        <ol>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Katlin</li>
+        </ol>
+            
+</ol>
+<h3>ul dentro de ol (aninhadas)</h3>
+<ol>
+    <li>Nintendinho</li>
+    <ul>
+        <li>Mario Bros</li>
+        <ul>
+            <li>Mario Bros 3</li>
+            <li>Mario: Lost Level</li>
+        </ul>
+    </ul>
+    <li>SuperNintendo</li>
+    <ul>
+        <li>Mario</li>
+        <li>Donkey Kong</li>
+    </ul>
+    <li>PlayStation</li>
+    <ul>
+        <li>Final Fantasy</li>
+        <li>Castlevania</li>
+    </ul>
+        
+
+ <p>Lembrando que: <br>
+Para estilizar (ol), basta usar style= para definir 1, A, a, I, ou i, e start para informar de onde quer começar a lista, 1, 2, 3, 4, 5..... </p>
+<p>E para estilizar (ul), basta usar style= para definir disk, circle e square. (não há start em ul)</p>
+<br><h2>Lista de Definições</h2>
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação do design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+</dl>
+<p>dl = Definition list</p>
+<p>dt = termo de definição</p>
+<p>dd = descrição de definição</p>
+<br><p>Esta lista de definições faz exatamente o que diz o título. Dá a definição a respeito de alguma coisa. Como se fosse um dicionário.</p>
+</html>
