@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Completa</title>
+    <style>
+        table {
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 20px;
+
+        }
+
+        caption {
+            border: 1px solid black;
+            padding: 20px;
+
+        }
+
+        tr.cabecalho,
+        tr.cabecalho2 {
+            background-color: gray;
+            color: white;
+        }
+
+        tr.media {
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TABELA</h1>
+    <table>
+        <caption>Tabela Completa</caption>
+        <thead>
+            <tr class="cabecalho">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+
+            </tr>
+            <tr class="cabecalho2">
+                <th>Exatas</th>
+                <th>Matemática</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>5,6</td>
+                <td>7,5</td>
+                <td>8,4</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>8,2</td>
+                <td>7,7</td>
+                <td>9,4</td>
+
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>4,9</td>
+                <td>10</td>
+                <td>7,3</td>
+
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>3,8</td>
+                <td>9,9</td>
+                <td>7,9</td>
+
+            </tr>
+            <tr class="media">
+                <th colspan="4">Média de Exatas</th>
+                <td>0,0</td>
+
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>4,7</td>
+                <td>3,8</td>
+                <td>8.6</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>5,5</td>
+                <td>8,2</td>
+                <td>3,7</td>
+
+            </tr>
+            <tr class="media">
+                <th colspan="4">Média de Humanas</th>
+                <td>0,0</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
